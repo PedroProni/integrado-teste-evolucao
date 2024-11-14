@@ -9,6 +9,7 @@ Esse desafio foi criado para avaliar a capacidade técnica dos candidatos, nos a
   1. Faça o fork deste repositório
   2. No front-end, implemente o que é proposto no [protótipo]().
   3. Utilizar apenas os pacotes que já estiverem instalados.
+  4. Você terá 3 dias para concluir
 
 ## Requisitos mínimos
 
@@ -23,14 +24,17 @@ Esse desafio foi criado para avaliar a capacidade técnica dos candidatos, nos a
   - Ter um campo, ou vários, para poder filtrar os dados. Exemplo: campo para filtrar por nome, status, etc...;
   - Ser possível reeordenar a tabela ao clicar no título da coluna
   - [BACKEND] Conectar com o MongoDb e retornar o que tiver na collection
+  - [BACKEND] Rota de produtos ser filtravel e paginável via query
 
 ### Pleno
 
   - Os requisitos do nível anterior;
   - Criar uma página de login e bloquear o acesso a página de produtos se não estiver logado;
   - Adicionar paginação;
-  - [BACKEND] Criar rota de login e bloquear as outras rotas para usar apenas com token
-  - [BACKEND] Rota de produtos ser filtravel e paginável via query
+  - Adicionar mais uma coluna com a contagem de vezes que esse produto foi comprado (a lista de pedidos está na rota da [API](https://6735fdf65995834c8a94f2fd.mockapi.io/api/v4/orders) ), não deve ser feito através da filtragem por query na API, você deve dar um GET na lista de orders e realizar a contagem pelo frontend;
+  - [BACKEND] Criar rota de login e bloquear as outras rotas para usar apenas com token;
+  - [BACKEND] Validação e esquematização do body [ver schema]();
+  - [BACKEND] Adicionar regra nos GETs de produto, ele deve validar o integration_status do estoque e preço de cada produto, caso algum deles esteja com "error" ou "pending" o integration_status do produto deve ser alterado para esse status, caso não seja, deve continuar como estava
 
 ### Sênior
 
