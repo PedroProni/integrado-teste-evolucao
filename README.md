@@ -22,7 +22,7 @@ Esse desafio foi criado para avaliar a capacidade técnica dos candidatos, nos a
 
   - Os requisitos do nível anterior;
   - Ter um campo, ou vários, para poder filtrar os dados. Exemplo: campo para filtrar por nome, status, etc...;
-  - Ser possível reeordenar a tabela ao clicar no título da coluna
+  - Reordenar a tabela ao clicar no título da coluna
   - [BACKEND] Conectar com o MongoDb e retornar o que tiver na collection
   - [BACKEND] Rota de produtos ser filtravel e paginável via query
 
@@ -45,4 +45,8 @@ Esse desafio foi criado para avaliar a capacidade técnica dos candidatos, nos a
   - Toast de erros;
   - Editar item na linha;
   - [BACKEND] Ao salvar ou editar um produto, enviar para uma fila do RabbitMQ
+  - [BACKEND] Sistema de logs e monitoramento usando o prometheus
+  - [BACKEND E FRONTEND] Testes unitários e E2E
+  - [BACKEND] Rota **POST /product/async** que vai enviar a requisição para uma fila no RabbitMQ
+  - [BACKEND] Listener para a fila da rota anterior e processar os dados
 
