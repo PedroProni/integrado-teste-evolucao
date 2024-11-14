@@ -30,6 +30,7 @@ Esse desafio foi criado para avaliar a capacidade técnica dos candidatos, nos a
   - Criar uma página de login e bloquear o acesso a página de produtos se não estiver logado;
   - Adicionar paginação;
   - [BACKEND] Criar rota de login e bloquear as outras rotas para usar apenas com token
+  - [BACKEND] Rota de produtos ser filtravel e paginável via query
 
 ### Sênior
 
