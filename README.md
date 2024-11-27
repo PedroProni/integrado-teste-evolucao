@@ -7,13 +7,11 @@ Esse desafio foi criado para avaliar a capacidade técnica dos candidatos, nos a
 ## Instruções:
 
   1. Faça o fork deste repositório
-  2. No front-end, implemente o que é proposto no [protótipo]().
+  2. No front-end, implemente o que é proposto no [protótipo](https://www.figma.com/design/nCH4jlohltNsww4QCmmqix/Teste-Integrado?node-id=0-1&t=1WVv74eHdfjQewCs-1).
   3. Utilizar apenas os pacotes que já estiverem instalados.
-  4. Você terá 3 dias para concluir
+  4. Você terá 1h30min dias para concluir
 
 ## Requisitos mínimos
-
-### Trainee
 
   - Implementar na página de produtos a busca e exibição de dados retornados da [API](https://6735fdf65995834c8a94f2fd.mockapi.io/api/v4/products) em uma tabela;
   - [BACKEND] Criar rota de produtos e retornar o JSON igual da API acima;
