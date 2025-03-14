@@ -17,8 +17,8 @@ export class OrdersService {
 
   async monthlyExpense(monthlyDto: MonthlyDto) {
     const currentYear = new Date().getFullYear();
-    const startDate = new Date(currentYear, monthlyDto.month - 1, 1); // Primeiro dia do mês
-    const endDate = new Date(currentYear, monthlyDto.month, 1); // Primeiro dia do mês seguinte
+    const startDate = new Date(currentYear, monthlyDto.month - 1, 1);
+    const endDate = new Date(currentYear, monthlyDto.month, 1);
     console.log(startDate, endDate);
 
     const orders = await this.orderModel.find({
