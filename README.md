@@ -19,6 +19,6 @@ Esse desafio foi criado para avaliar a capacidade técnica dos candidatos, nos a
 - Criar uma página de login e bloquear o acesso à página de pedidos se não estiver logado;
 
 
-- [BACKEND] Criar rota de produtos e retornar o JSON igual da API acima, com o adicional que em itens deve ter {sku: string, qty: number}[];
+- [BACKEND] Criar rota de pedidos e retornar o JSON igual da API acima, com o adicional que em itens deve ter {sku: string, qty: number}[];
 - [BACKEND] Criar rota de login e bloquear as outras rotas para usar apenas com token;
 - [BACKEND] Criar uma rota para somar quanto um cliente gastou no mês X, a rota vai receber o email do cliente e o número do mês e você deve responder com o valor total gasto pelo cliente nesse mês;
